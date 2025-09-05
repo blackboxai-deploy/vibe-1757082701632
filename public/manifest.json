@@ -1,0 +1,49 @@
+{
+  "name": "Aphasia Communication App",
+  "short_name": "Aphasia Comm",
+  "description": "A comprehensive communication app designed for people with aphasia, featuring symbol-based communication and text-to-speech functionality",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "categories": ["health", "medical", "education", "accessibility"],
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1024x768",
+      "type": "image/png", 
+      "form_factor": "wide"
+    }
+  ],
+  "features": [
+    "cross-platform",
+    "offline-capable",
+    "text-to-speech",
+    "accessibility",
+    "progressive-web-app"
+  ],
+  "lang": "en-US",
+  "scope": "/",
+  "prefer_related_applications": false
+}
